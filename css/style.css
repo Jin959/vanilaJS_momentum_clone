@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Square+Peg&display=swap');
+
+* {
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.15em;
+    margin:0;
+    padding:0;
+    text-align: center;
+    border: none;
+}
+
+#login-form {
+    padding-top: 50px;
+    font-size: 250%;
+}
+
+#greeting {
+    padding-top: 50px;
+    font-size: 250%;
+}
+
+#clock {
+    font-size: 4em;
+}
+
+#grid-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 200px;
+}
+
+#todo-form input {
+    border-bottom: solid gray;
+}
+
+#todo-list li{
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+#todo-list li button{
+    font-size: 0.8em;
+    
+    background: none;
+}
+
+#quote {
+    position: fixed;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    bottom: 0;
+    text-align: left;
+    border-top: solid gray;
+}
+
+#weather {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.4;
+    }
+}
+
+.bgimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeOut 2s ease forwards;
+    object-fit: cover;
+}
