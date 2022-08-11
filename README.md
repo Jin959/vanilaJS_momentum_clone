@@ -31,4 +31,4 @@ with [vanillaJS Challenge](https://nomadcoders.co/challenges)
 >    - [innerHTML과 innerText의 차이점](https://hianna.tistory.com/480)
 >    
 > 6. [날씨와 위치](https://github.com/Jin959/vanilaJS_momentum_clone/blob/main/js/weather.js) (geolocation)   
->    - API 키 관련하여 현재 off 상태입니다.
+>    - 현재 off 상태입니다.
