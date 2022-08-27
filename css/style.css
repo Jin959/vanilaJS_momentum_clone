@@ -38,6 +38,7 @@
     text-align: left;
 }
 
+/* toto를 입력하면 <ul>태그 내에 <li>, <button> 태그가 생성된다. */
 #todo-list li button{
     font-size: 0.8em;
     
