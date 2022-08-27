@@ -30,5 +30,6 @@ with [vanillaJS Challenge](https://nomadcoders.co/challenges)
 > 5. Math.random() 등을 이용한 [랜덤 명언](https://github.com/Jin959/vanilaJS_momentum_clone/blob/main/js/quotes.js)   
 >    - [innerHTML과 innerText의 차이점](https://hianna.tistory.com/480)
 >    
-> 6. [날씨와 위치](https://github.com/Jin959/vanilaJS_momentum_clone/blob/main/js/weather.js) (geolocation)   
->    - 현재 off 상태입니다.
+> 6. geolocation을 이용한 [날씨와 위치](https://github.com/Jin959/vanilaJS_momentum_clone/blob/main/js/weather.js)   
+>    - [GPS 좌표 정보 가져오기](https://developer.mozilla.org/ko/docs/Web/API/Geolocation/getCurrentPosition)  
+>    - [navigator](https://developer.mozilla.org/ko/docs/Web/API/Navigator/geolocation)

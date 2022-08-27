@@ -128,14 +128,14 @@ const quotes = [
         author: "Dieter Rams 디터 람스",
     },
 ];
+// 위의 quotes는 Object가 원소인 배열
 
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
 
-const todaysQuote = quotes[Math.floor(Math.random()*quotes.length) ];
+const todaysQuote = quotes[Math.floor(Math.random() * quotes.length) ];
 
 
 // innnerHTML은 innerText와는 달리 innerHTML은 element 안의 HTML이나 XML을 가져옵니다.
-// 출처: https://hianna.tistory.com/480 [어제 오늘 내일:티스토리]
 quote.innerHTML = todaysQuote.quote;
 author.innerText = `- ${todaysQuote.author} -`;

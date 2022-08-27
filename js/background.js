@@ -6,7 +6,7 @@ const images = [
     "4.jpg",
 ];
 
-const chosenImg = images[Math.floor(Math.random()*images.length)];
+const chosenImg = images[Math.floor(Math.random() * images.length)];
 
 //creatElement로 생성된 bgImg는 바로 HTML에 추가 되지 않는다.
 //appendChild나 prepend method를 이용해야 추가 된다.

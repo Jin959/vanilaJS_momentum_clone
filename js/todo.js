@@ -26,6 +26,7 @@ function paintToDo(newTodo){ //typeof newTodo = Obj
     span.innerText = newTodo.text;
     const btn = document.createElement("button");
     btn.innerText = "❌";
+    
     btn.addEventListener("click", deleteToDo);
     //console.log(li);
     li.appendChild(span);
@@ -55,5 +56,5 @@ if(savedToDos !== null){
     const parsedToDos = JSON.parse(savedToDos); //transform to typeof array
     toDos = parsedToDos; // 재접속 시 이전의 것을 불러와 배열에 저장
     parsedToDos.forEach(paintToDo); // 배열 고차 함수
-    // parsedToDos.forEach(item => console.log("this is ", item) );
+    // parsedToDos.forEach((ele, idx, arr) => console.log("this is ", item) );
 }
